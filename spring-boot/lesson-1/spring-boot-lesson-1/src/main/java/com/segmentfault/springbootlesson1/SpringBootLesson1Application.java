@@ -20,6 +20,7 @@ public class SpringBootLesson1Application extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
         SpringApplication.run(SpringBootLesson1Application.class, args);
+//        SpringApplication.run((Class<?>) null, args);
     }
 
     @Override
