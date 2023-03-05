@@ -95,6 +95,7 @@
   <!--                       response sent to clients when directory        -->
   <!--                       listings is enabled? [true]                    -->
 
+    <!--  静态资源处理   -->
     <servlet>
         <servlet-name>default</servlet-name>
         <servlet-class>org.apache.catalina.servlets.DefaultServlet</servlet-class>
@@ -243,6 +244,7 @@
   <!--                       attributes described in JSP.1.6 be applied to  -->
   <!--                       the expression? [true]                         -->
 
+    <!--  Jsp处理   -->
     <servlet>
         <servlet-name>jsp</servlet-name>
         <servlet-class>org.apache.jasper.servlet.JspServlet</servlet-class>
